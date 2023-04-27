@@ -1,0 +1,110 @@
+/* Styles for the header section */
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+img {height: 350px;
+    width: 90%;}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin: 0 20px;
+}
+
+li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: #0077c2;
+}
+
+/* Styles for the activities section */
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.activities img {
+  height: 200px;
+  width: auto;
+  margin: 20px;
+}
+
+.table-container {
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #0077c2;
+  color: #fff;
+}
+
+/* Styles for the guide section */
+.guide {
+  margin: 20px;
+  text-align: center;
+}
+
+#profile {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  margin: 20px;
+  text-align: center;
+}
+
+p {
+  margin: 20px;
+  text-align: justify;
+}
+
+img {
+  max-width: 100%;
+}
